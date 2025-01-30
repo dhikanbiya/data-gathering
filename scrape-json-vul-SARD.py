@@ -1,12 +1,17 @@
 from urllib.request import urlopen
 import json
 import time
+import argparse
 
 
 
 
 def main():        
-    maxpage = 2   
+    parser = argparse.ArgumentParser(description='Scrape SARD dataset.')
+    parser.add_argument('--max', type=int, default=2, help='Maximum number of pages to scrape')
+    args = parser.parse_args()
+
+    maxpage = args.max
     
     for i in range(1, maxpage+1):
         urlSARD = "https://samate.nist.gov/SARD/api/test-cases/search?language%5B%5D=java&state%5B%5D=bad&page="+str(i)+"&limit=100"
