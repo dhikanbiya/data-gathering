@@ -1,0 +1,3426 @@
+{
+  "creationDate": "2025-01-29T11:08:53.686421+00:00",
+  "testCases": [
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501364-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501364/versions/1.0.1",
+      "identifier": "501364-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/register/profile-form.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 75
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/register/edit-profile.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 696,
+                                  "startLine": 694
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 350,
+                                  "startLine": 348
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 56
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/EditProfileServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 72
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/EditProfileServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 134
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/EditProfileServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 140
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/EditProfileServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 56
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/register/profile-form.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/register/profile-form.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "57d55ce72189af8addfb4a21649f71c741ec2070e7a0cd6ac90066cf3facda05"
+                },
+                "length": 6133,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/EditProfileServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "fa17594bb294376dbd730fc2047522b5c565871a706b058ae295d67dfde18247"
+                },
+                "length": 4201,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/register/edit-profile.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "881cd43e2e265a59d9ade84c0d6aacc45e1034ea33e187d2f32dccfd984b8b85"
+                },
+                "length": 4011,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/register/profile-form.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501364,
+              "type": "source code",
+              "pairs": [
+                "501229-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501367-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501367/versions/1.0.1",
+      "identifier": "501367-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 147
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-community.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 270
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-community.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 282
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-community.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 267
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-community.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 279
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-community.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 536,
+                                  "startLine": 534
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 197,
+                                  "startLine": 195
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 126
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditCommunitiesServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 146
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditCommunitiesServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 237
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditCommunitiesServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 543
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditCommunitiesServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 526,
+                                  "startLine": 524
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 192,
+                                  "startLine": 190
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 51
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 73
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 89
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 105
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 51
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 73
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 89
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 105
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 136
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 142
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 146
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 37,
+                                  "startLine": 37
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/mydspace/subscriptions.jsp",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 78
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/mydspace/subscriptions.jsp",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 67,
+                                  "startLine": 64
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-api/src/main/java/org/dspace/app/util/CollectionDropDown.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 80,
+                                  "startLine": 78
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/mydspace/subscriptions.jsp",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "47197a5ab2ffbaa71ce3d422aa5fff90c91cde6920275fbde90876b680a47e75"
+                },
+                "length": 4750,
+                "location": {
+                  "uri": "dspace-api/src/main/java/org/dspace/app/util/CollectionDropDown.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "6424d199d0bd184e5cd862d62266da9c9ec8bb4cffc8b8696f716baa1a4e9aa8"
+                },
+                "length": 5056,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubscribeServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "817f15359e56fd22174af471c2e09c44abcf6bcbb01262906e23fb38e00aa790"
+                },
+                "length": 38638,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditCommunitiesServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "430d449fc78e2e9373f293aaf7d44e8aa0879849eca9e02325516ef21e190a60"
+                },
+                "length": 5172,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/mydspace/subscriptions.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "02ed172e1869c6ba023c6ace2c56fd6a77196d50dde53d8f3e43f9fa3c80b3c8"
+                },
+                "length": 13239,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/tools/edit-community.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501367,
+              "type": "source code",
+              "pairs": [
+                "501232-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501360-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501360/versions/1.0.1",
+      "identifier": "501360-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 105
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 188
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 547,
+                                  "startLine": 544
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 208,
+                                  "startLine": 205
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 76,
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 140
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 40,
+                                  "startLine": 39
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 296
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 307
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "ba29097fad7ece9b2ee68e8739a962d6e7f97344172b5eab097a104ff4573d9f"
+                },
+                "length": 16272,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "3a44a5aab370018d6a3e788eaa4c0895067eaadf0cd5f8eec8e1ef4f59e09482"
+                },
+                "length": 8471,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "9fdaabf746069322983d0062da3512bcfde9848894844a65cf14e08c5f760b7a"
+                },
+                "length": 13797,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501360,
+              "type": "source code",
+              "pairs": [
+                "501225-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501361-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501361/versions/1.0.1",
+      "identifier": "501361-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 105
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 188
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 546,
+                                  "startLine": 544
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 207,
+                                  "startLine": 205
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 140
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 55
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 86
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "ba29097fad7ece9b2ee68e8739a962d6e7f97344172b5eab097a104ff4573d9f"
+                },
+                "length": 16272,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "3a44a5aab370018d6a3e788eaa4c0895067eaadf0cd5f8eec8e1ef4f59e09482"
+                },
+                "length": 8471,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501361,
+              "type": "source code",
+              "pairs": [
+                "501226-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501366-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501366/versions/1.0.1",
+      "identifier": "501366-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 187
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 188
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 566,
+                                  "startLine": 564
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 227,
+                                  "startLine": 225
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 47
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonListServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 90
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonListServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 93
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonListServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 106
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-api/src/main/java/org/dspace/eperson/EPersonServiceImpl.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 107
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonListServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 114
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonListServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 44
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 214
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "e6203a74c05a181d18d1a0449f5b1d3cc7002a6fd8e23000e1d538f5952986bb"
+                },
+                "length": 14274,
+                "location": {
+                  "uri": "dspace-api/src/main/java/org/dspace/eperson/EPersonServiceImpl.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "ed6c92132df3cd2ab7ba3693a650590284eba5925e16a479c591c5be964f2dfb"
+                },
+                "length": 3613,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonListServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "9fdaabf746069322983d0062da3512bcfde9848894844a65cf14e08c5f760b7a"
+                },
+                "length": 13797,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/tools/eperson-list.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501366,
+              "type": "source code",
+              "pairs": [
+                "501231-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501362-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501362/versions/1.0.1",
+      "identifier": "501362-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 105
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 188
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 546,
+                                  "startLine": 544
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 207,
+                                  "startLine": 205
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 140
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 269
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 285
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 28
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-confirm-delete.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 39
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-confirm-delete.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "ba29097fad7ece9b2ee68e8739a962d6e7f97344172b5eab097a104ff4573d9f"
+                },
+                "length": 16272,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "525a4fce46c035863606ae0ac384b641de90e205aeb202464d063f79f3526b19"
+                },
+                "length": 2201,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-confirm-delete.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "3a44a5aab370018d6a3e788eaa4c0895067eaadf0cd5f8eec8e1ef4f59e09482"
+                },
+                "length": 8471,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501362,
+              "type": "source code",
+              "pairs": [
+                "501227-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501359-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501359/versions/1.0.1",
+      "identifier": "501359-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 105
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 188
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 546,
+                                  "startLine": 544
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 207,
+                                  "startLine": 205
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 74
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 140
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 491,
+                                  "startLine": 489
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 152,
+                                  "startLine": 150
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 81
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/AuthorizeAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 274
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/AuthorizeAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 292
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/AuthorizeAdminServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 66,
+                                  "startLine": 65
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/authorize-item-edit.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 143
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/authorize-item-edit.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "cd4e9bb4ed5b447eb643ad6903db8fdbf9c881d9b440ac2ec2ea92e5eb10913c"
+                },
+                "length": 33485,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/AuthorizeAdminServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "ba29097fad7ece9b2ee68e8739a962d6e7f97344172b5eab097a104ff4573d9f"
+                },
+                "length": 16272,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EPersonAdminServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "bd7882b09a9a6d78ced21654d3302dd8b8e3ee6dd29a8e0994cbf5174e9bce3d"
+                },
+                "length": 13319,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/authorize-item-edit.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "3a44a5aab370018d6a3e788eaa4c0895067eaadf0cd5f8eec8e1ef4f59e09482"
+                },
+                "length": 8471,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/dspace-admin/eperson-edit.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501359,
+              "type": "source code",
+              "pairs": [
+                "501224-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501363-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501363/versions/1.0.1",
+      "identifier": "501363-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 111
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/controlledvocabulary/controlledvocabulary.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 109,
+                                  "startLine": 107
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/controlledvocabulary/controlledvocabulary.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 766,
+                                  "startLine": 764
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 428,
+                                  "startLine": 426
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 56
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 61
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 31
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 51,
+                                  "startLine": 50
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 53
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 85
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/controlledvocabulary/controlledvocabulary.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 111
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/controlledvocabulary/controlledvocabulary.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "32dee8256d07ad5091d35a71ce582d80df5392cdac812281a9a7c53aebe39e1a"
+                },
+                "length": 1842,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "af2aa0f7e3a01ede6fca7786feb6eb4e2f640497774b77c90d9ba4b1a16c3b1f"
+                },
+                "length": 4680,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/controlledvocabulary/controlledvocabulary.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501363,
+              "type": "source code",
+              "pairs": [
+                "501228-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501358-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501358/versions/1.0.1",
+      "identifier": "501358-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 486
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-item-form.jsp",
+                                  "index": 6
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 714
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/edit-item-form.jsp",
+                                  "index": 6
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 552,
+                                  "startLine": 549
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 213,
+                                  "startLine": 210
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 4
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 212,
+                                  "startLine": 210
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditItemServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 283
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditItemServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 660,
+                                  "startLine": 658
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditItemServlet.java",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 119,
+                                  "startLine": 117
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 163
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 262
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 367,
+                                  "startLine": 364
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 530
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 535
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 64
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/display-item.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 224
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/display-item.jsp",
+                                  "index": 5
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 72
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/tools/group-edit.jsp",
+                                  "index": 7
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 158,
+                                  "startLine": 158
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/dspace-tags.tld",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 319
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/ItemTag.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 334
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/ItemTag.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 428
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/ItemTag.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 591
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/ItemTag.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "2e58d0c0aa5fee5d61176951ea7c6dda7deea2aa9e46735e816962da68f18caf"
+                },
+                "length": 49763,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/ItemTag.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "b76996744b337c3cf1dd471da30949232b0ae1343be1745e481b641ce3a8ac4f"
+                },
+                "length": 32659,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "5d1baecca0f594821777945b72d8836fabb274c8c6e095057acbdcadc42a6202"
+                },
+                "length": 39398,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditItemServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "884a10d49761356a6dbd5a946c64917b89617b855fec881ed0ef9c80a5df9ffb"
+                },
+                "length": 18058,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/dspace-tags.tld"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "0f66e5b91573be896566e23355a9119508db49c3367494d50485398d9cc1372e"
+                },
+                "length": 17557,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/display-item.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "5952573c77e5c8cf9697b7a64b2dfc1503774eb177b92e40a806fb7e22360983"
+                },
+                "length": 36484,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/tools/edit-item-form.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "d40ec52a1797d0d6e5e59b3e3cfb4e6db5ccadd12a117f5aca08d3de02653e61"
+                },
+                "length": 3912,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/tools/group-edit.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501358,
+              "type": "source code",
+              "pairs": [
+                "501223-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    },
+    {
+      "download": "https://samate.nist.gov/SARD/downloads/versions/501365-v1.0.1.zip",
+      "link": "https://samate.nist.gov/SARD/test-cases/501365/versions/1.0.1",
+      "identifier": "501365-v1.0.1",
+      "sarif": {
+        "runs": [
+          {
+            "tool": {
+              "driver": {
+                "name": "SARD - SAMATE",
+                "version": "5.0.0",
+                "fullName": "Software Assurance Reference Dataset Project",
+                "organization": "NIST",
+                "informationUri": "https://samate.nist.gov/SARD/",
+                "supportedTaxonomies": [
+                  {
+                    "name": "CWE",
+                    "index": 0
+                  }
+                ]
+              }
+            },
+            "results": [
+              {
+                "kind": "pass",
+                "ruleId": "none",
+                "message": {
+                  "text": "Trace lines."
+                },
+                "codeFlows": [
+                  {
+                    "threadFlows": [
+                      {
+                        "locations": [
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 23
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/components/login-form.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 17
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/components/login-form.jsp",
+                                  "index": 2
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 681,
+                                  "startLine": 679
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "endLine": 335,
+                                  "startLine": 333
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml",
+                                  "index": 1
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 59
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/PasswordServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 64
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/PasswordServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 69
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/PasswordServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 96
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/PasswordServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 102
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/PasswordServlet.java",
+                                  "index": 0
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 40
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/login/incorrect.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 41
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/login/incorrect.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "taxa": [
+                              {
+                                "id": "79",
+                                "index": 0,
+                                "toolComponent": {
+                                  "name": "CWE",
+                                  "index": 0
+                                }
+                              }
+                            ],
+                            "location": {
+                              "physicalLocation": {
+                                "region": {
+                                  "startLine": 43
+                                },
+                                "artifactLocation": {
+                                  "uri": "dspace-jspui/src/main/webapp/login/incorrect.jsp",
+                                  "index": 3
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "artifacts": [
+              {
+                "hashes": {
+                  "sha-256": "81803b4639bfc7740b1610f3dae30eeb10b28a711beac7a08ed58a2b666e7f22"
+                },
+                "length": 3751,
+                "location": {
+                  "uri": "dspace-jspui/src/main/java/org/dspace/app/webui/servlet/PasswordServlet.java"
+                },
+                "sourceLanguage": "java"
+              },
+              {
+                "hashes": {
+                  "sha-256": "81365be2ce477795ca41f0d6be94574a1872cf60924d629d9b3d6194e80fc708"
+                },
+                "length": 24844,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/WEB-INF/web.xml"
+                },
+                "sourceLanguage": "xml"
+              },
+              {
+                "hashes": {
+                  "sha-256": "1e6020c880028a89917c6f92284713013c5de45cbfa21e1f63c238497cfa217f"
+                },
+                "length": 1945,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/components/login-form.jsp"
+                },
+                "sourceLanguage": "jsp"
+              },
+              {
+                "hashes": {
+                  "sha-256": "f79027c46785993e2c53c7019b4b9477eb4de0134155ad488dde955398d4f812"
+                },
+                "length": 2065,
+                "location": {
+                  "uri": "dspace-jspui/src/main/webapp/login/incorrect.jsp"
+                },
+                "sourceLanguage": "jsp"
+              }
+            ],
+            "properties": {
+              "id": 501365,
+              "type": "source code",
+              "pairs": [
+                "501230-v1.0.0"
+              ],
+              "state": "good",
+              "author": "SAMATE Team",
+              "status": "accepted",
+              "version": "1.0.1",
+              "language": "java",
+              "description": "CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+              "dependencies": [
+                "dspace-sate6-fixed-v6.2"
+              ],
+              "submissionDate": "2024-08-23"
+            },
+            "taxonomies": [
+              {
+                "name": "CWE",
+                "taxa": [
+                  {
+                    "id": "79",
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+                  }
+                ],
+                "version": "4.9",
+                "downloadUri": "https://cwe.mitre.org/data/xml/cwec_v4.9.xml.zip",
+                "organization": "MITRE",
+                "informationUri": "https://cwe.mitre.org/data/published/cwe_v4.9.pdf",
+                "isComprehensive": false,
+                "shortDescription": {
+                  "text": "The MITRE Common Weakness Enumeration"
+                }
+              }
+            ]
+          }
+        ],
+        "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+        "version": "2.1.0"
+      }
+    }
+  ],
+  "page": 2,
+  "total": 32356,
+  "limit": 10,
+  "count": 10,
+  "pageCount": 3236
+}
