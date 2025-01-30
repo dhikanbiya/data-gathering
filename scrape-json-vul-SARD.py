@@ -6,7 +6,7 @@ import time
 
 
 def main():        
-    maxpage = 324   
+    maxpage = 2   
     
     for i in range(1, maxpage+1):
         urlSARD = "https://samate.nist.gov/SARD/api/test-cases/search?language%5B%5D=java&state%5B%5D=bad&page="+str(i)+"&limit=100"
@@ -14,7 +14,7 @@ def main():
         response = page.read()
         results = json.loads(response)
         
-        with open(f'/Users/danbiya/Documents/datasets/SARD/vulnerable/scraped_data_page_{i}.json', 'w') as outfile:
+        with open(f'vulnerable/scraped_data_page_{i}.json', 'w') as outfile:
             json.dump(results, outfile, indent=4)
         time.sleep(5)
 
