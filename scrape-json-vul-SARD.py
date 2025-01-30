@@ -21,10 +21,13 @@ def main():
         
         with open(f'vulnerable/scraped_data_page_{i}.json', 'w') as outfile:
             json.dump(results, outfile, indent=4)
+            print("Page", i, "done")
+        print("Sleeping for 5 seconds")
         time.sleep(5)
 
 
 
 if __name__ == "__main__":
     data = main()
+    print("Data scraped successfully")
     
