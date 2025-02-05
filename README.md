@@ -1,14 +1,14 @@
 # A small script for gathering data from SARD dataset
 
-This script only working with vulnerable java source code dataset from SARD (for now)
+Please see the `status` and `language` in SARD Documentation
 ```
-https://samate.nist.gov/SARD/api/test-cases/search?language%5B%5D=java&state%5B%5D=bad&page="+{MAXIMUMPAGE}+"&limit=100
+https://samate.nist.gov/SARD/documentation#search
 ```
 
 ### How to use
 - Scrape data using `scrape-json-vul-SARD`
  ```
- scrape-json-vul-SARD.py --max maximum-page-from-api
+ python scrape-json-vul-SARD.py  --state={state} --language={programming language} --output={json output folder}
  ```
 - `extract-data` the json file into csv
 ```
