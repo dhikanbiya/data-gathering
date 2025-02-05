@@ -10,8 +10,7 @@ https://samate.nist.gov/SARD/api/test-cases/search?language%5B%5D=java&state%5B%
  ```
  scrape-json-vul-SARD.py --max maximum-page-from-api
  ```
-- `extract-data` to extract the json file into csv
-for `extract-data` use this command:
+- `extract-data` the json file into csv
 ```
 python extract-data.py --json_path=vulnerable --output=csv/output.csv
 ```
