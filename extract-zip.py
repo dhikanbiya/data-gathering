@@ -15,7 +15,8 @@ def extract_and_clean(source_folder, destination_folder, exclude_extension):
 
             # Ensure extraction folder exists
             os.makedirs(extract_folder, exist_ok=True)
-
+            
+            print(f"Processing {zip_path}" )
             # Extract zip file
             with zipfile.ZipFile(zip_path, 'r') as zip_ref:
                 zip_ref.extractall(extract_folder)
@@ -28,10 +29,10 @@ def extract_and_clean(source_folder, destination_folder, exclude_extension):
                     file_path = os.path.join(root, file)
                     if file.endswith(exclude_extension):
                         shutil.move(file_path, os.path.join(extract_folder, file))
-                        print(f"Moved {file_path} to {extract_folder}")
+                        # print(f"Moved {file_path} to {extract_folder}")
                     else:
                         os.remove(file_path)
-                        print(f"Deleted {file_path}")
+                        # print(f"Deleted {file_path}")
 
             # Remove empty directories
             for root, dirs, files in os.walk(extract_folder, topdown=False):
@@ -39,7 +40,7 @@ def extract_and_clean(source_folder, destination_folder, exclude_extension):
                     dir_path = os.path.join(root, dir)
                     if not os.listdir(dir_path):
                         os.rmdir(dir_path)
-                        print(f"Removed empty directory {dir_path}")
+                        # print(f"Removed empty directory {dir_path}")
 
 if __name__ == "__main__":
     # Parse command-line arguments
