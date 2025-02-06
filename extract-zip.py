@@ -12,35 +12,42 @@ def extract_and_clean(source_folder, destination_folder, exclude_extension):
         if filename.endswith(".zip"):
             zip_path = os.path.join(source_folder, filename)
             extract_folder = os.path.join(destination_folder, os.path.splitext(filename)[0])  # Remove .zip extension
+            log_file = os.path.join(destination_folder, 'log.txt')
 
             # Ensure extraction folder exists
             os.makedirs(extract_folder, exist_ok=True)
-            
-            print(f"Processing {zip_path}" )
-            # Extract zip file
-            with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                zip_ref.extractall(extract_folder)
 
-            print(f"Extracted {filename} to {extract_folder}")
+            try:
+                print(f"Processing {zip_path}")
+                # Extract zip file
+                with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                    zip_ref.extractall(extract_folder)
 
-            # Move files with the specified extension to the root of the extraction folder and delete everything else
-            for root, dirs, files in os.walk(extract_folder):
-                for file in files:
-                    file_path = os.path.join(root, file)
-                    if file.endswith(exclude_extension):
-                        shutil.move(file_path, os.path.join(extract_folder, file))
-                        # print(f"Moved {file_path} to {extract_folder}")
-                    else:
-                        os.remove(file_path)
-                        # print(f"Deleted {file_path}")
+                print(f"Extracted {filename} to {extract_folder}")
 
-            # Remove empty directories
-            for root, dirs, files in os.walk(extract_folder, topdown=False):
-                for dir in dirs:
-                    dir_path = os.path.join(root, dir)
-                    if not os.listdir(dir_path):
-                        os.rmdir(dir_path)
-                        # print(f"Removed empty directory {dir_path}")
+                # Move files with the specified extension to the root of the extraction folder and delete everything else
+                for root, dirs, files in os.walk(extract_folder):
+                    for file in files:
+                        file_path = os.path.join(root, file)
+                        if file.endswith(exclude_extension):
+                            shutil.move(file_path, os.path.join(extract_folder, file))
+                            # print(f"Moved {file_path} to {extract_folder}")
+                        else:
+                            os.remove(file_path)
+                            # print(f"Deleted {file_path}")
+
+                # Remove empty directories
+                for root, dirs, files in os.walk(extract_folder, topdown=False):
+                    for dir in dirs:
+                        dir_path = os.path.join(root, dir)
+                        if not os.listdir(dir_path):
+                            os.rmdir(dir_path)
+                            # print(f"Removed empty directory {dir_path}")
+
+            except zipfile.BadZipFile:
+                print(f"Failed to extract {filename}, logging to {log_file}")
+                with open(log_file, 'a') as log:
+                    log.write(f"{filename}\n")
 
 if __name__ == "__main__":
     # Parse command-line arguments
