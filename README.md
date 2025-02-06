@@ -18,3 +18,7 @@ python extract-data.py --json_path={folder path to json file} --output={place wh
 ```
 python download_data.py --csv_path={path to csv file} --download_folder={path to folder}
 ```
+`extract-zip` extract all the zip file in folder to destination folder, remove other files that not relevant to programming languange that will use
+```
+python extract-zip.py --source_folder={folder that contain all zip file} --destination_folder={extracted folder} --exclude_extension={file extension to exclude ex: .java}
+```
