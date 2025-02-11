@@ -60,7 +60,7 @@ def main():
             continue
 
         # Choose the first java file
-        java_file = os.path.join(folder_path, java_files[0])
+        java_file = os.path.abspath(os.path.join(folder_path, java_files[0]))
         # Use the folder name as the project name for import_code_query
         project_name = folder
 
