@@ -1,5 +1,6 @@
 import os
 import re
+import json
 import argparse
 from cpgqls_client import CPGQLSClient, import_code_query
 
@@ -68,7 +69,9 @@ def main():
         # Import the code; this returns a query that is executed against Joern
         query = import_code_query(java_file, project_name)
         result_import = client.execute(query)
-        write_log("Import executed.", global_log)
+        # Pretty print the import query response
+        formatted_import = json.dumps(result_import, indent=4)
+        write_log("Import executed. Response:\n" + formatted_import, global_log)
         
         # Perform a CPG query to list all methods in the code
         cpg_query = "cpg.method.toJsonPretty"
