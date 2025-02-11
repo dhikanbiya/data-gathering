@@ -22,3 +22,20 @@ python download_data.py --csv_path={path to csv file} --download_folder={path to
 ```
 python extract-zip.py --source_folder={folder that contain all zip file} --destination_folder={extracted folder} --exclude_extension={file extension to exclude ex: .java}
 ```
+Extract cpg and ast as json file using joern client - https://github.com/joernio/cpgqls-client-python
+```
+python joernclient.py --base_folder {folder containing the source code}    
+```
+
+## Joern script
+Make sure to start the joern server:
+```
+joern --server --server-host localhost --server-port 8088
+```
+
+Use this command to generate json for ast or cfg from the source code
+```
+joern-parse /src/directory
+joern --script script/exportCPG.sc --param cpgFile={cpg location} --param outFile={output file}
+```
+
