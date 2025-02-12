@@ -53,6 +53,13 @@ def main():
         if not os.path.isdir(folder_path):
             continue
 
+        # If both JSON files already exist in the folder, skip it.
+        ast_json = os.path.join(folder_path, "exported-ast.json")
+        cpg_json = os.path.join(folder_path, "exported-cpg.json")
+        if os.path.exists(ast_json) and os.path.exists(cpg_json):
+            write_log(f"Skipping {folder_path}: JSON files already exist.", global_log)
+            continue
+
         # Look for .java files in the folder
         java_files = [f for f in os.listdir(folder_path) if f.endswith('.java')]
         if not java_files:
@@ -71,32 +78,30 @@ def main():
         result_import = client.execute(query)
         # Pretty print the import query response
         formatted_import = json.dumps(result_import, indent=4)
-        write_log("Import executed. Response:\n" + formatted_import, global_log)
+        # write_log("Import executed. Response:\n" + formatted_import, global_log)
         
         # Perform a CPG query to list all methods in the code
         cpg_query = "cpg.method.toJsonPretty"
         result_cpg = client.execute(cpg_query)
-        write_log("CPG query executed.", global_log)
+        # write_log("CPG query executed.", global_log)
         
         # Perform an AST query
         ast_query = "cpg.method.ast.toJsonPretty"
         result_ast = client.execute(ast_query)
-        write_log("AST query executed.", global_log)
+        # write_log("AST query executed.", global_log)
 
         cleaned_ast = clean_output(result_ast['stdout'])
         cleaned_cpg = clean_output(result_cpg['stdout'])
 
         # Save the results in the folder containing the Java file
-        ast_output_file = os.path.join(folder_path, "exported-ast.json")
-        cpg_output_file = os.path.join(folder_path, "exported-cpg.json")
-        
-        with open(ast_output_file, "w") as f:
+        with open(ast_json, "w") as f:
             f.write(cleaned_ast)
-        with open(cpg_output_file, "w") as f:
+        with open(cpg_json, "w") as f:
             f.write(cleaned_cpg)
 
-        write_log(f"Saved AST to {ast_output_file}", global_log)
-        write_log(f"Saved CPG to {cpg_output_file}", global_log)
+        write_log(f"{project_name} exported", global_log)
+        # write_log(f"Saved AST to {ast_json}", global_log)
+        # write_log(f"Saved CPG to {cpg_json}", global_log)
 
     write_log("All folders processed.", global_log)
 
