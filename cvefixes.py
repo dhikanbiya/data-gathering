@@ -20,7 +20,6 @@ def clean_output(output):
 
 
 
-
 def main(): 
 
 
@@ -52,6 +51,18 @@ def main():
         # Get the base filename without the extension
         base_filename = os.path.splitext(f)[0]
         
+
+        # Generate output filenames with _cpg and _ast suffixes
+        cpg_filename = os.path.join(cpg_dir, base_filename + "_cpg.json")
+        ast_filename = os.path.join(ast_dir, base_filename + "_ast.json")
+
+         # Check if both files already exist and are non-empty, then skip this file.
+        if (os.path.exists(ast_filename) and os.path.getsize(ast_filename) > 0) and \
+           (os.path.exists(cpg_filename) and os.path.getsize(cpg_filename) > 0):
+            print(f"Skipping {java_file_full}: AST and CPG files already exist.")
+            continue
+
+
         # Import the code into Joern for the given project (using the base filename as project name)
         query = import_code_query(java_file_full, base_filename)
         result_import = client.execute(query)
@@ -66,9 +77,7 @@ def main():
         result_ast = client.execute(ast_query)
         cleaned_ast = clean_output(result_ast['stdout'])
         
-        # Generate output filenames with _cpg and _ast suffixes
-        cpg_filename = os.path.join(cpg_dir, base_filename + "_cpg.json")
-        ast_filename = os.path.join(ast_dir, base_filename + "_ast.json")
+        
         
         # Save the cleaned outputs to the respective files
         with open(cpg_filename, "w") as f_out:
@@ -78,6 +87,7 @@ def main():
             f_out.write(cleaned_ast)
         
         print(f"Processed {java_file_full}. \n Saved CPG to {cpg_filename} \n Saved AST to {ast_filename}.")
+    print("\n\n=====Processing complete.======")
 
 if __name__ == "__main__":
     main()
